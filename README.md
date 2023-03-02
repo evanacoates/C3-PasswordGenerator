@@ -8,8 +8,8 @@ password matches entered criteria
 generated password displayed
 
 # Usage
-Runs through deployed github pages link.
-
+Runs through deployed github pages link. 
+https://evanacoates.github.io/password-generator/
 # Technologies
 HTML, CSS, JS
 
