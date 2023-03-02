@@ -1,11 +1,7 @@
 # Challenge-2
 
 # Requirements
-working button
-prompts related to character types and length
-8-128 characters
-password matches entered criteria
-generated password displayed
+Working button, prompts related to character types and length, 8-128 characters, password matches entered criteria, generated password displayed
 
 # Usage
 Runs through deployed github pages link. 
