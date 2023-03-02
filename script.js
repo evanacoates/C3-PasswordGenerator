@@ -15,7 +15,7 @@ var generateBtn = document.querySelector("#generate");
 generateBtn.addEventListener("click", writePassword);
 
 function writePassword() {
-  var correctPrompts = getPrompts();
+  var correctPrompts = prompts();
   var passwordText = document.querySelector("#password");
 
   if(correctPrompts) {
@@ -33,9 +33,9 @@ function generatePassword() {
     password = password + charArray[randomIndex];
   }
   return password;
- }
- 
-function getPrompts(){
+}
+
+function prompts(){
   charArray = [];
 
   passwordLength = parseInt(prompt("How many characters would you like your password to have? Choose a number between 8 and 128"));
@@ -57,5 +57,4 @@ function getPrompts(){
       charArray = charArray.concat(numberList)
     }
   return true;
-  
 }
