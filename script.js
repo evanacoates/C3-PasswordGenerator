@@ -15,10 +15,10 @@ var generateBtn = document.querySelector("#generate");
 generateBtn.addEventListener("click", writePassword);
 
 function writePassword() {
-  var correctPrompts = prompts();
+  var enteredPrompts = prompts();
   var passwordText = document.querySelector("#password");
 
-  if(correctPrompts) {
+  if(enteredPrompts) {
     var newPassword = generatePassword();
     passwordText.value = newPassword;
   } else {
